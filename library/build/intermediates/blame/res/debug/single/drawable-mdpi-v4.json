@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\about_github_demo\\Github\\DEMO\\YoungLeague\\library\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\default_ptr_flip.png",
+        "source": "D:\\about_github_demo\\Github\\DEMO\\YoungLeague\\library\\src\\main\\res\\drawable-mdpi\\default_ptr_flip.png"
+    },
+    {
+        "merged": "D:\\about_github_demo\\Github\\DEMO\\YoungLeague\\library\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\default_ptr_rotate.png",
+        "source": "D:\\about_github_demo\\Github\\DEMO\\YoungLeague\\library\\src\\main\\res\\drawable-mdpi\\default_ptr_rotate.png"
+    },
+    {
+        "merged": "D:\\about_github_demo\\Github\\DEMO\\YoungLeague\\library\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\indicator_arrow.png",
+        "source": "D:\\about_github_demo\\Github\\DEMO\\YoungLeague\\library\\src\\main\\res\\drawable-mdpi\\indicator_arrow.png"
+    }
+]

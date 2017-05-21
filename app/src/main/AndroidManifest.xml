@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nenguou.youngleague">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".login_activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".person_personinfo_layout" />
+        <activity android:name=".AboutFragemt.fragment_for_bottom.acty_person_appset_changepassword" />
+        <activity android:name=".AboutFragemt.fragment_for_bottom.aty_message_addmeeting" />
+        <activity android:name=".AboutFragemt.fragment_for_bottom.aty_journal_addjournal" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".AboutFragemt.fragment_for_bottom.aty_person_setting" />
+        <activity android:name=".AboutFragemt.fragment_for_bottom.aty_person_messagealert" />
+        <activity android:name=".details_layout.recommentd_articlelayout" />
+        <activity android:name=".details_layout.announcement_articallayout"></activity>
+    </application>
+
+</manifest>

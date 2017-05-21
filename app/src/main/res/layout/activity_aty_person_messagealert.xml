@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/colorGray"
+    tools:context="com.example.nenguou.youngleague.AboutFragemt.fragment_for_bottom.aty_person_messagealert">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="?attr/colorPrimary">
+
+        <ImageButton
+            android:id="@+id/backbtn3"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:background="@color/colorARed"
+            android:paddingLeft="-70dp"
+            android:src="@drawable/backkk" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="新消息提醒"
+            android:textColor="@color/colorAWhite"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorAWhite">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="17dp"
+            android:text="接收新消息通知"
+            android:textColor="@color/colorBlack"
+            android:textSize="18dp" />
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="16dp"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/goToChangePassword"
+        android:clickable="true"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:background="@color/colorAWhite"
+        android:layout_height="90dp"
+        >
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="17dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:id="@+id/iamtop"
+            android:text="通知显示消息详情"
+            android:textColor="@color/colorBlack"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="340dp"
+            android:layout_below="@+id/iamtop"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorGrayDark"
+            android:text="若关闭，当收到消息时，通知提示将不显示发言人和内容的摘要"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/iamtop" />
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorAWhite">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="17dp"
+            android:text="声音"
+            android:textColor="@color/colorBlack"
+            android:textSize="18dp" />
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="16dp"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="2dp"
+        android:background="@color/colorAWhite">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="17dp"
+            android:text="震动"
+            android:textColor="@color/colorBlack"
+            android:textSize="18dp" />
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="16dp"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

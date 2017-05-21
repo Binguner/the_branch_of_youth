@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="6dp"
+        android:id="@+id/newsPic"
+        android:layout_width="100dp"
+        android:scaleType="centerCrop"
+        android:layout_height="100dp"
+        android:src="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/bigTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/newsPic"
+        android:textColor="@color/colorBlack"
+        android:lines="2"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingTop="10dp"
+        android:text="这是大标题这是大标题这是大标题这是大标题这是大标题这是大标题这是大标题这是大标题这是大标题这是大标题这是大标题"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/eyes"
+        android:layout_marginLeft="10dp"
+        android:layout_width="20dp"
+        android:layout_height="18dp"
+        android:layout_marginBottom="2dp"
+        android:src="@drawable/eyes_gray_16"
+        android:layout_alignBottom="@+id/newsPic"
+        android:layout_toEndOf="@+id/newsPic" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginBottom="2dp"
+        android:textColor="#626362"
+        android:textSize="15dp"
+        android:text="999"
+        android:id="@+id/eyesNumber"
+        android:layout_alignTop="@+id/eyes"
+        android:layout_toEndOf="@+id/eyes" />
+    <ImageView
+        android:id="@+id/hand"
+        android:layout_width="20dp"
+        android:layout_height="18dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="2dp"
+        android:layout_toRightOf="@+id/eyesNumber"
+        android:src="@drawable/hand_gray_16"
+        android:layout_alignBottom="@+id/newsPic"/>
+    <TextView
+        android:layout_alignTop="@+id/hand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10102"
+        android:id="@+id/handNumber"
+        android:layout_marginBottom="2dp"
+        android:textSize="15dp"
+        android:layout_alignBottom="@+id/newsPic"
+        android:layout_toRightOf="@+id/hand"
+        android:layout_marginLeft="4dp"
+        android:textColor="#626362"/>
+    <TextView
+        android:id="@+id/newsDate"
+        android:singleLine="true"
+        android:layout_marginRight="14dp"
+        android:layout_marginBottom="2dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:layout_height="wrap_content"
+        android:text="2016-11-11 11:11"
+        android:layout_alignBottom="@+id/handNumber"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

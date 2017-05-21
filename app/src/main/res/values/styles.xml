@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.base">
+        <!-- Customize your theme here. -->
+        <!-- <item name="colorPrimary">@color/colorPrimary</item>
+         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+         <item name="colorAccent">@color/colorAccent</item>-->
+    </style>
+
+    <style name="AppTheme.base" parent="Theme.AppCompat">
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimaryDark">#af0909</item>
+        <item name="colorPrimary">#af0909</item>
+        <item name="android:windowBackground">@color/colorAWhite</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="MenuButtonsStyle">
+        <item name="fab_size">mini</item>
+        <item name="fab_shadowColor">#444</item>
+        <item name="fab_colorNormal">#af0909</item>
+        <item name="fab_colorPressed">#f62c2c</item>
+        <item name="fab_colorRipple">#ccffffff</item>
+    </style>
+
+    <style name="MyEditText" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">#ffffff</item>
+        <item name="colorControlActivated">#afafaf</item>
+    </style>
+
+    <style name="MyStyle">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="MyEditText_login" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">#ffffff</item>
+        <item name="colorControlActivated">#ffffff</item>
+    </style>
+
+
+</resources>
