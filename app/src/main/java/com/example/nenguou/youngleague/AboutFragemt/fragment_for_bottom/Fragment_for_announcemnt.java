@@ -238,10 +238,10 @@ public class Fragment_for_announcemnt extends BaseFragent {
         protected void onPostExecute(List<Announcement_Model> newsModels) {
             super.onPostExecute(newsModels);
 
-            for (int i = 0; i < manyNews.size(); i++) {
-                fragment111.manyNews.add(manyNews.get(i));
-                Log.i("fucknii", manyNews.get(1).createdAt.toString());
-            }
+                for (int i = 0; i < manyNews.size(); i++) {
+                    fragment111.manyNews.add(manyNews.get(i));
+                    Log.i("fucknii", manyNews.get(1).createdAt.toString());
+                }
 
             fragment111.annoucement_adapter.notifyDataSetChanged();
             fragment111.announcemennt_List.onRefreshComplete();

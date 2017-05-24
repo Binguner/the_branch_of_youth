@@ -5,7 +5,7 @@ import android.os.Bundle;
 
 import com.example.nenguou.youngleague.R;
 
-public class acty_person_appset_changepassword extends AppCompatActivity {
+public class aty_person_appset_changepassword extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ptr="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="这是党小组会"
-        android:textColor="@color/colorARed"/>
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/newsList_for_journal_dangxiaozuhui"
+        android:numColumns="2"
+        android:scaleType="centerCrop"
+        ptr:ptrDrawable="@drawable/default_ptr_rotate"
+        ptr:ptrAnimationStyle="rotate"
+        ptr:ptrHeaderBackground="@android:color/transparent"
+        ptr:ptrHeaderTextColor="#919191">>
+
+    </com.handmark.pulltorefresh.library.PullToRefreshListView>
 </LinearLayout>

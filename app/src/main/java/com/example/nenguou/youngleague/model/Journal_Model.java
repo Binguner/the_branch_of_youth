@@ -41,5 +41,12 @@ public class Journal_Model {
         public String roles;
         public String branch;
         public String universityPO;
+
+        public String getAvator(){
+            return avator;
+        }
+
     }
+
+
 }

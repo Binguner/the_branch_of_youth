@@ -1,5 +1,6 @@
 package com.example.nenguou.youngleague.AboutFragemt.fragment_for_annoucement;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
@@ -217,14 +218,15 @@ public class Fragment_for_recommend_studentshow extends BaseFragent {
             return manyNews;
         }
 
+        @SuppressLint("WrongConstant")
         @Override
         protected void onPostExecute(List<newsModel> newsModels) {
             super.onPostExecute(newsModels);
 
-            for (int i = 0; i < manyNews.size(); i++) {
-                fragment111.manyNews.add(manyNews.get(i));
-                Log.i("fucknii", manyNews.get(1).createdAt.toString());
-            }
+                for (int i = 0; i < manyNews.size(); i++) {
+                    fragment111.manyNews.add(manyNews.get(i));
+                    Log.i("fucknii", manyNews.get(1).createdAt.toString());
+                }
 
             fragment111.newsadapter.notifyDataSetChanged();
             fragment111.newsList.onRefreshComplete();

@@ -20,7 +20,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".person_personinfo_layout" />
-        <activity android:name=".AboutFragemt.fragment_for_bottom.acty_person_appset_changepassword" />
+        <activity android:name=".AboutFragemt.fragment_for_bottom.aty_person_appset_changepassword" />
         <activity android:name=".AboutFragemt.fragment_for_bottom.aty_message_addmeeting" />
         <activity android:name=".AboutFragemt.fragment_for_bottom.aty_journal_addjournal" />
         <activity android:name=".MainActivity" />

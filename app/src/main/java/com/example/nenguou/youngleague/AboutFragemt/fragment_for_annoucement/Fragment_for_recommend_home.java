@@ -1,5 +1,6 @@
 package com.example.nenguou.youngleague.AboutFragemt.fragment_for_annoucement;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
@@ -55,6 +56,7 @@ public class Fragment_for_recommend_home extends BaseFragent {
         new FirstLoadDataAsyncTask(Fragment_for_recommend_home.this).execute();
         // item 点击事件
         newsList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @SuppressLint("WrongConstant")
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Toast.makeText(getContext(), "haha", Toast.LENGTH_SHORT).show();
@@ -99,6 +101,7 @@ public class Fragment_for_recommend_home extends BaseFragent {
             this.fragment111 = fragment111;
         }
 
+        @SuppressLint("WrongConstant")
         @Override
         protected List<newsModel> doInBackground(Integer... integers) {
             if (!Utils.isNetworkAvailable(getContext()))
@@ -135,6 +138,7 @@ public class Fragment_for_recommend_home extends BaseFragent {
             return manyNews;
         }
 
+        @SuppressLint("WrongConstant")
         @Override
         protected void onPostExecute(List<newsModel> newsModels) {
             super.onPostExecute(newsModels);
@@ -187,6 +191,7 @@ public class Fragment_for_recommend_home extends BaseFragent {
             this.fragment111 = fragment111;
         }
 
+        @SuppressLint("WrongConstant")
         @Override
         protected List<newsModel> doInBackground(Integer... integers) {
             if (!Utils.isNetworkAvailable(getContext()))
@@ -225,19 +230,19 @@ public class Fragment_for_recommend_home extends BaseFragent {
             return manyNews;
         }
 
+        @SuppressLint("WrongConstant")
         @Override
         protected void onPostExecute(List<newsModel> newsModels) {
             super.onPostExecute(newsModels);
 
-            for (int i = 0; i < manyNews.size(); i++) {
-                fragment111.manyNews.add(manyNews.get(i));
-                Log.i("fucknii", manyNews.get(1).createdAt.toString());
-            }
+                for (int i = 0; i < manyNews.size(); i++) {
+                    fragment111.manyNews.add(manyNews.get(i));
+                    Log.i("fucknii", manyNews.get(1).createdAt.toString());
+                }
 
             fragment111.newsadapter.notifyDataSetChanged();
             fragment111.newsList.onRefreshComplete();
         }
-
     }
 
     private void initId() {
