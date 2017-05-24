@@ -29,7 +29,7 @@ public class aty_person_setting extends AppCompatActivity {
         goToChangePassword.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(aty_person_setting.this,acty_person_appset_changepassword.class);
+                Intent intent = new Intent(aty_person_setting.this,aty_person_appset_changepassword.class);
                 startActivity(intent);
             }
         });
